@@ -15,7 +15,7 @@ function inputOperator(operator){
 function clear(){
     operand1 = undefined;
     operand2 = undefined;
-    opt =undefined;
+    opt = undefined;
 }
 
 function calculate(){
@@ -45,4 +45,5 @@ function calculate(){
             }
            
     }
+    clear();
 }
